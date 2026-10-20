@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get from my.telegram.org/app
-API_ID = int(getenv("30357553", ""))
-API_HASH = getenv("a3ab16f410f5a879ac0a051fcf55d733", "")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 # Get from @BotFather
-BOT_TOKEN = getenv("8726685216:AAGAh48o8iLlxZm3A2ItxPZUDboHItI7YfI", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Get from MongoDB Atlas
-MONGO_DB_URI = getenv("mongodb+srv://futuredestruction822_db_user:YfN2eDPy1nH2eOE9@cluster0.vq5vitm.mongodb.net/", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
-LOGGER_ID = int(getenv("-1003980017042", "0"))
-OWNER_ID = int(getenv("8304684938", "7574330905"))
+LOGGER_ID = int(getenv("LOGGER_ID", "0"))
+OWNER_ID = int(getenv("OWNER_ID", "7574330905"))
 
 # Heroku App Name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
@@ -45,7 +45,7 @@ SUPPORT_CHANNEL = getenv(
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_CHAT",
-    "https://t.me/updatesraid"
+    "https://t.me/ShrutiSupportChat"
 )
 
 AUTO_LEAVING_ASSISTANT = getenv(
@@ -70,7 +70,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 # Get from @Sessionbbbot
-STRING1 = getenv("BAHPODEAcktkz5kg3CfgXm_cdjre-KkDUMH2Elyh5qMb0RmKxMwticzAXp55CFvWcQcvZx2q4GkxkXVEWeQfPTUNpF2fzjR5YGq205AfVJxibiXE2NAnZlgZxY-jm5FilTeDLAz3etdcjF4Qc4SkI6lmqh0ulDf9m52Iq5CjKySBJqVYmvpJlRPTynvpWG3wv35c0YTljtQwkT2Lr7NgCRih0NE2tph1SZ_a_hGoti-V8QRZa-X9KGnwA-0LtlIWkkbUf-y_nYA_ztx_wQeWki9fOqC_BbAD4cbL-Mc5kfk2FnWOPWLJsltGmWXdEjB_x-fXwekrWU_7_JjK7P4c_lh-EM2KVQAAAAExTnMGAA")
+STRING1 = getenv("STRING_SESSION")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
